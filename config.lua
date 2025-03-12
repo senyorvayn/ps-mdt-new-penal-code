@@ -259,17 +259,17 @@ Config.PenalCodeTitles = {
 Config.PenalCode = {
     
 [1] = {
-[1] = {title = 'Treason', class = 'Felony', id = 'P.C. 000.01', punishment = 'HUT', color = 'red', description = 'Betraying one’s country by aiding its enemies or attempting to overthrow the government.'},  
-[2] = {title = 'Sedition', class = 'Felony', id = 'P.C. 000.02', punishment = 'HUT', color = 'red', description = 'Inciting rebellion or resistance against the authority of the state through speech or actions.'},  
-[3] = {title = 'Espionage', class = 'Felony', id = 'P.C. 000.03', punishment = 'HUT', color = 'red', description = 'Spying or gathering confidential information on behalf of a foreign power to the detriment of national security.'},  
-[4] = {title = 'Terrorism', class = 'Felony', id = 'P.C. 000.04', punishment = 'HUT', color = 'red', description = 'Committing violent acts to instill fear, coerce governments, or advance political, ideological, or religious goals.'},  
-[5] = {title = 'Sabotage', class = 'Felony', id = 'P.C. 000.05', punishment = 'HUT', color = 'red', description = 'Deliberately destroying, damaging, or disrupting critical infrastructure, industries, or government operations.'},  
-[6] = {title = 'Rebellion', class = 'Felony', id = 'P.C. 000.06', punishment = 'HUT', color = 'red', description = 'Organizing or participating in an armed uprising against the government or its authorities.'},  
-[7] = {title = 'Insurrection', class = 'Felony', id = 'P.C. 000.07', punishment = 'HUT', color = 'red', description = 'Actively engaging in a violent uprising against the government or its officials.'},  
-[8] = {title = 'Cyberterrorism', class = 'Felony', id = 'P.C. 000.08', punishment = 'HUT', color = 'red', description = 'Using cyber attacks or digital means to disrupt, damage, or instill fear in institutions, infrastructure, or populations.'},  
-[9] = {title = 'Perjury', class = 'Felony', id = 'P.C. 000.09', punishment = 'HUT', color = 'red', description = 'Knowingly providing false statements under oath, obstructing justice, or misleading court proceedings.'},  
-[10] = {title = 'Contempt of Court', class = 'Felony', id = 'P.C. 000.10', punishment = 'HUT', color = 'red', description = 'Disrespecting or disobeying court orders, judges, or legal proceedings, hindering the administration of justice.'},  
-[11] = {title = 'Economic Crimes against the State', class = 'Felony', id = 'P.C. 000.11', punishment = 'HUT', color = 'red', description = 'Engaging in fraudulent financial activities that undermine the state’s economy or financial stability.'}  
+[1] = {title = 'Treason', class = 'Felony', id = 'P.C. 000.01', months = 'HUT', color = 'red', description = 'Betraying one’s country by aiding its enemies or attempting to overthrow the government.'},  
+[2] = {title = 'Sedition', class = 'Felony', id = 'P.C. 000.02', months = 'HUT', color = 'red', description = 'Inciting rebellion or resistance against the authority of the state through speech or actions.'},  
+[3] = {title = 'Espionage', class = 'Felony', id = 'P.C. 000.03', months = 'HUT', color = 'red', description = 'Spying or gathering confidential information on behalf of a foreign power to the detriment of national security.'},  
+[4] = {title = 'Terrorism', class = 'Felony', id = 'P.C. 000.04', months = 'HUT', color = 'red', description = 'Committing violent acts to instill fear, coerce governments, or advance political, ideological, or religious goals.'},  
+[5] = {title = 'Sabotage', class = 'Felony', id = 'P.C. 000.05', months = 'HUT', color = 'red', description = 'Deliberately destroying, damaging, or disrupting critical infrastructure, industries, or government operations.'},  
+[6] = {title = 'Rebellion', class = 'Felony', id = 'P.C. 000.06', months = 'HUT', color = 'red', description = 'Organizing or participating in an armed uprising against the government or its authorities.'},  
+[7] = {title = 'Insurrection', class = 'Felony', id = 'P.C. 000.07', months = 'HUT', color = 'red', description = 'Actively engaging in a violent uprising against the government or its officials.'},  
+[8] = {title = 'Cyberterrorism', class = 'Felony', id = 'P.C. 000.08', months = 'HUT', color = 'red', description = 'Using cyber attacks or digital means to disrupt, damage, or instill fear in institutions, infrastructure, or populations.'},  
+[9] = {title = 'Perjury', class = 'Felony', id = 'P.C. 000.09', months = 'HUT', color = 'red', description = 'Knowingly providing false statements under oath, obstructing justice, or misleading court proceedings.'},  
+[10] = {title = 'Contempt of Court', class = 'Felony', id = 'P.C. 000.10', months = 'HUT', color = 'red', description = 'Disrespecting or disobeying court orders, judges, or legal proceedings, hindering the administration of justice.'},  
+[11] = {title = 'Economic Crimes against the State', class = 'Felony', id = 'P.C. 000.11', months = 'HUT', color = 'red', description = 'Engaging in fraudulent financial activities that undermine the state’s economy or financial stability.'}  
  },
 [2] = {
 [1] = {title = 'Murder', class = 'Felony', id = 'P.C. 101.01', months = 100, fine = 4500, color = 'red', description = 'The unlawful killing of another person with intent.'},
