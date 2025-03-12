@@ -212,6 +212,7 @@ Config.RemoveWeaponsPerms = {
 }
 
 Config.PenalCodeTitles = {
+    [1] = 'CRIMES AGAINTS THE STATE',
     [2] = 'CRIMES AGAINTS THE PERSON',
     [3] = 'CRIMES AGAINTS THE PROPERTY',
     [4] = 'CRIMES AGAINTS PUBLIC JUSTICE',
