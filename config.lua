@@ -212,51 +212,65 @@ Config.RemoveWeaponsPerms = {
 }
 
 Config.PenalCodeTitles = {
-    [1] = 'CRIMES AGAINTS THE PERSON',
-    [2] = 'CRIMES AGAINTS THE PROPERTY',
-    [3] = 'CRIMES AGAINTS PUBLIC JUSTICE',
-    [4] = 'CRIMES AGAINTS PUBLIC DECENCY',
-    [5] = 'DEFINITONS',
-    [6] = 'VEHICLE REGISTRATION',
-    [7] = 'DRIVERS LICENSE',
-    [8] = 'ACCIDENTS AND REPORTING',
-    [9] = 'LAW ENFORCEMENT EXEMPTIONS',
-    [10] = 'TRAFFIC SIGNALS', 
-	[11] = 'DRIVING OPERATIONS',
-	[12] = 'RIGHT OF WAY',
-[13] = 'PEDESTRIAN DUTIES',
-[14] = 'TURNING AND STOPPING',
-[15] = 'SPEED LAWS',
-[16] = 'PARKED/ABANDONED VEHICLES',
-[17] = 'PARKING LOTS',
-[18] = 'DRIVING UNDER THE INFLUENCE',
-[19] = 'EQUIPMENT',
-[20] = 'OFF-HIGHWAY VEHICLES',
-[21] = 'POSSESSION OF WEAPONS AND EQUIPMENT',
-[22] = 'BRANDISHING AND CARRYING OF WEAPONS',
-[23] = 'DISCHARGE AND USE OF WEAPONS',
-[24] = 'OPERATION OF COMMERICAL VEHICLES',
-[25] = 'OPERATION OF COMMERCIAL VEHICLES',
-[26] = 'OPERATION OF AIRCRAFT',
-[27] = 'OPERATION',
-[28] = 'IN,AMMED AERIAL VEHICLES',
-[29] = 'MARITIME VESSEL OFFENCES',
-[30] = 'MARITIME NAVIGATIONAL OPERATIONAL OFFENCE',
-[31] = 'CRIMES AGAINTS PERSON, PUBLIC HEALTH AND SAFETY',
-[32] = 'CRIMINAL PROFITEERING',
-[33] = 'HUNTING/FISHING',
-[34] = 'ANIMAL CARE AND CONTROL',
-[35] = 'QUALIFIED IMMUNITY',
-[36] = 'MINORS EMPLOYMENT AND REPRESENTATION LAWS',
-[37] = 'MENTAL HEALTH LAWS',
-[38] = 'MARRIAGE, ANNULMENT, AND DIVORCE LAWS',
-[39] = 'MEDICAL PRACTITIONERS CRIMINAL LAWS',
-[40] = 'FOOD AND SAFETY LAWS',
+    [2] = 'CRIMES AGAINTS THE PERSON',
+    [3] = 'CRIMES AGAINTS THE PROPERTY',
+    [4] = 'CRIMES AGAINTS PUBLIC JUSTICE',
+    [5] = 'CRIMES AGAINTS PUBLIC DECENCY',
+    [6] = 'DEFINITONS',
+    [7] = 'VEHICLE REGISTRATION',
+    [8] = 'DRIVERS LICENSE',
+    [9] = 'ACCIDENTS AND REPORTING',
+    [10] = 'LAW ENFORCEMENT EXEMPTIONS',
+    [11] = 'TRAFFIC SIGNALS', 
+	[12] = 'DRIVING OPERATIONS',
+	[13] = 'RIGHT OF WAY',
+[14] = 'PEDESTRIAN DUTIES',
+[15] = 'TURNING AND STOPPING',
+[16] = 'SPEED LAWS',
+[17] = 'PARKED/ABANDONED VEHICLES',
+[18] = 'PARKING LOTS',
+[19] = 'DRIVING UNDER THE INFLUENCE',
+[20] = 'EQUIPMENT',
+[21] = 'OFF-HIGHWAY VEHICLES',
+[22] = 'POSSESSION OF WEAPONS AND EQUIPMENT',
+[23] = 'BRANDISHING AND CARRYING OF WEAPONS',
+[24] = 'DISCHARGE AND USE OF WEAPONS',
+[25] = 'OPERATION OF COMMERICAL VEHICLES',
+[26] = 'OPERATION OF COMMERCIAL VEHICLES',
+[27] = 'OPERATION OF AIRCRAFT',
+[28] = 'OPERATION',
+[29] = 'IN,AMMED AERIAL VEHICLES',
+[30] = 'MARITIME VESSEL OFFENCES',
+[31] = 'MARITIME NAVIGATIONAL OPERATIONAL OFFENCE',
+[32] = 'CRIMES AGAINTS PERSON, PUBLIC HEALTH AND SAFETY',
+[33] = 'CRIMINAL PROFITEERING',
+[34] = 'HUNTING/FISHING',
+[35] = 'ANIMAL CARE AND CONTROL',
+[36] = 'QUALIFIED IMMUNITY',
+[37] = 'MINORS EMPLOYMENT AND REPRESENTATION LAWS',
+[38] = 'MENTAL HEALTH LAWS',
+[39] = 'MARRIAGE, ANNULMENT, AND DIVORCE LAWS',
+[40= 'MEDICAL PRACTITIONERS CRIMINAL LAWS',
+[41] = 'FOOD AND SAFETY LAWS',
 
 }
 
 Config.PenalCode = {
-    [1] = {
+    
+[1] = {
+[1] = {title = 'Treason', class = 'Felony', id = 'P.C. 000.01', punishment = 'HUT', color = 'red', description = 'Betraying one’s country by aiding its enemies or attempting to overthrow the government.'},  
+[2] = {title = 'Sedition', class = 'Felony', id = 'P.C. 000.02', punishment = 'HUT', color = 'red', description = 'Inciting rebellion or resistance against the authority of the state through speech or actions.'},  
+[3] = {title = 'Espionage', class = 'Felony', id = 'P.C. 000.03', punishment = 'HUT', color = 'red', description = 'Spying or gathering confidential information on behalf of a foreign power to the detriment of national security.'},  
+[4] = {title = 'Terrorism', class = 'Felony', id = 'P.C. 000.04', punishment = 'HUT', color = 'red', description = 'Committing violent acts to instill fear, coerce governments, or advance political, ideological, or religious goals.'},  
+[5] = {title = 'Sabotage', class = 'Felony', id = 'P.C. 000.05', punishment = 'HUT', color = 'red', description = 'Deliberately destroying, damaging, or disrupting critical infrastructure, industries, or government operations.'},  
+[6] = {title = 'Rebellion', class = 'Felony', id = 'P.C. 000.06', punishment = 'HUT', color = 'red', description = 'Organizing or participating in an armed uprising against the government or its authorities.'},  
+[7] = {title = 'Insurrection', class = 'Felony', id = 'P.C. 000.07', punishment = 'HUT', color = 'red', description = 'Actively engaging in a violent uprising against the government or its officials.'},  
+[8] = {title = 'Cyberterrorism', class = 'Felony', id = 'P.C. 000.08', punishment = 'HUT', color = 'red', description = 'Using cyber attacks or digital means to disrupt, damage, or instill fear in institutions, infrastructure, or populations.'},  
+[9] = {title = 'Perjury', class = 'Felony', id = 'P.C. 000.09', punishment = 'HUT', color = 'red', description = 'Knowingly providing false statements under oath, obstructing justice, or misleading court proceedings.'},  
+[10] = {title = 'Contempt of Court', class = 'Felony', id = 'P.C. 000.10', punishment = 'HUT', color = 'red', description = 'Disrespecting or disobeying court orders, judges, or legal proceedings, hindering the administration of justice.'},  
+[11] = {title = 'Economic Crimes against the State', class = 'Felony', id = 'P.C. 000.11', punishment = 'HUT', color = 'red', description = 'Engaging in fraudulent financial activities that undermine the state’s economy or financial stability.'}  
+ },
+[2] = {
 [1] = {title = 'Murder', class = 'Felony', id = 'P.C. 101.01', months = 100, fine = 4500, color = 'red', description = 'The unlawful killing of another person with intent.'},
 [2] = {title = 'Attempted Murder', class = 'Felony', id = 'P.C. 101.02', months = 70, fine = 3500, color = 'red', description = 'The attempt to unlawfully kill another person.'},
 [3] = {title = 'Voluntary Manslaughter', class = 'Felony', id = 'P.C. 101.03', months = 40, fine = 3000, color = 'red', description = 'A killing that occurs in the heat of passion or under circumstances that mitigate culpability.'},
@@ -277,7 +291,7 @@ Config.PenalCode = {
 [18] = {title = 'Unlawful Movement / Kidnapping', class = 'Felony', id = 'P.C. 101.18', months = 60, fine = 2900, color = 'red', description = 'Unlawfully moving or detaining a person, including kidnapping.'},
 [19] = {title = 'Hostage Taking', class = 'Felony', id = 'P.C. 101.19', months = 40, fine = 3000, color = 'red', description = 'The unlawful act of taking a person hostage to achieve a goal or demand.'},
     },
-    [2] = {
+    [3] = {
 [1] = {title = 'Burglary', class = 'Misdemeanor', id = 'P.C. 200.00', months = 30, fine = 1800, color = 'green', description = 'The unlawful entry into a building or structure with the intent to commit a crime.'},
 [2] = {title = 'Shoplifting', class = 'Misdemeanor', id = 'P.C. 200.01.01', months = 30, fine = 1300, color = 'green', description = 'The act of stealing goods from a retail store without paying for them.'},
 [3] = {title = 'Larceny', class = 'Misdemeanor', id = 'P.C. 200.02', months = 30, fine = 1500, color = 'green', description = 'The unlawful taking of someone else’s property with the intent to permanently deprive them of it.'},
@@ -303,7 +317,7 @@ Config.PenalCode = {
 [23] = {title = 'Possession of Items Used in the Commission of a Crime', class = 'Felony', id = 'P.C. 200.19', months = 70, fine = 2500, color = 'red', description = 'Possession of tools or items that could be used in the commission of a crime.'},
 [24] = {title = 'Possession of Stolen Property', class = 'Felony', id = 'P.C. 200.20', months = 60, fine = 2600, color = 'red', description = 'The possession of property that is known to be stolen.'},
     },
-    [3] = {
+    [4] = {
 [1] = {title = 'Escapes and Aiding and Abetting Therein', class = 'Felony', id = 'P.C. 300.00', months = 35, fine = 3000, color = 'red', description = 'The act of aiding or assisting in the escape of a prisoner from custody.'},
 [2] = {title = 'Prisoner Escapes', class = 'Felony', id = 'P.C. 300.01.01', months = 60, fine = 2800, color = 'red', description = 'The act of a prisoner escaping from custody.'},
 [3] = {title = 'Bribery and Corruption', class = 'Misdemeanor', id = 'P.C. 300.02', months = 30, fine = 1500, color = 'green', description = 'Offering or accepting a bribe to influence the actions of a public official.'},
@@ -333,7 +347,7 @@ Config.PenalCode = {
 [27] = {title = 'Disturbing the Peace', class = 'Misdemeanor', id = 'P.C. 300.15', months = 30, fine = 1300, color = 'green', description = 'Engaging in behavior that disrupts public peace or order, typically involving loud noise or fights.'},
    
  },
-    [4] = {
+    [5] = {
 [1] = {title = 'Unlawful Assembly', class = 'Misdemeanor', id = 'P.C. 400.00', months = 30, fine = 1500, color = 'green', description = 'The act of assembling in a group with the intent to disrupt peace or engage in unlawful activities.'},
 [2] = {title = 'Instances of Unlawful Assembly', class = 'Felony', id = 'P.C. 400.01.01', months = 40, fine = 2500, color = 'red', description = 'A felony that involves participating in an unlawful assembly that results in violence or destruction.'},
 [3] = {title = 'Disorderly Conduct', class = 'Misdemeanor', id = 'P.C. 400.02', months = 30, fine = 1500, color = 'green', description = 'Engaging in disruptive behavior that causes public disturbance or disturbs the peace.'},
@@ -354,7 +368,7 @@ Config.PenalCode = {
 [18] = {title = 'Illegal Use and Cultivation of Marijuana', class = 'Felony', id = 'P.C. 400.17', months = 50, fine = 2100, color = 'red', description = 'Cultivating marijuana or using it illegally, in violation of state or federal regulations.'}
    
  },
-    [5] = {
+    [6] = {
     [1] = {title = 'Definitions', class = 'Felony', id = 'P.C. 500.00', months = 50, fine = 1800, color = 'red', description = 'Legal definitions applicable to vehicle and traffic laws.'},
     [2] = {title = 'Sale of a Controlled Substance', class = 'Felony', id = 'P.C. 500.01', months = 50, fine = 1800, color = 'red', description = 'The illegal sale of regulated drugs or substances.'},
     [3] = {title = 'Alcoholic Beverage', class = 'Misdemeanor', id = 'P.C. 500.02', months = 30, fine = 1500, color = 'orange', description = 'Unlawful possession, sale, or consumption of alcoholic beverages.'},
@@ -384,27 +398,27 @@ Config.PenalCode = {
     [27] = {title = 'Vehicle Tampering', class = 'Misdemeanor', id = 'P.C. 500.45', months = 30, fine = 1200, color = 'orange', description = 'Altering or interfering with a vehicle without consent.'},
   
   },
-    [6] = {
+    [7] = {
         [1] = {title = 'Current Registration', class = 'Infraction', id = 'P.C. 600.00', months = 20, fine = 250, color = 'yellow', description = 'Failure to maintain current vehicle registration.'},
     [2] = {title = 'Evidence of Insurance', class = 'Infraction', id = 'P.C. 600.01', months = 20, fine = 200, color = 'yellow', description = 'Failure to provide proof of valid vehicle insurance.'},
     [3] = {title = 'License Plates', class = 'Infraction', id = 'P.C. 600.02', months = 20, fine = 250, color = 'yellow', description = 'Improper display or absence of vehicle license plates.'},
     [4] = {title = 'Driving without Vehicle Registration', class = 'Infraction', id = 'P.C. 600.03', months = 20, fine = 250, color = 'yellow', description = 'Operating a vehicle without proper registration.'},
    
  },
-    [7] = {
+    [8] = {
 [1] = {title = 'Valid Driver License Requirements', class = 'Infraction', id = 'P.C. 700.00', months = 20, fine = 200, color = 'blue', description = 'Requirements for possessing a valid driver’s license as per traffic laws.'},
 [2] = {title = 'Driving without a License', class = 'Infraction', id = 'P.C. 700.01', months = 20, fine = 250, color = 'blue', description = 'Driving a vehicle without a valid driver’s license in your possession.'},
 [3] = {title = 'Failure to Provide Driver’s License', class = 'Misdemeanor', id = 'P.C. 700.02', months = 30, fine = 1100, color = 'green', description = 'Failure to provide a valid driver’s license upon request from law enforcement.'},
 [4] = {title = 'Driving on a Suspended/Revoked Driver License', class = 'Misdemeanor', id = 'P.C. 700.03', months = 30, fine = 1200, color = 'green', description = 'Driving a vehicle while your driver’s license is suspended or revoked.'},
 
     },
-    [8] = {
+    [9] = {
          [1] = {title = 'Primary Agency', class = 'N/A', id = 'P.C. 800.00', description = 'Definition and responsibilities of the primary law enforcement agency.'},
     [2] = {title = 'Hit & Run with Injury', class = 'Felony', id = 'P.C. 800.01', months = 50, fine = 2100, color = 'red', description = 'Leaving the scene of an accident resulting in injury without providing information or aid.'},
     [3] = {title = 'Hit & Run without Injury', class = 'Misdemeanor', id = 'P.C. 800.02', months = 25, fine = 1200, color = 'orange', description = 'Leaving the scene of an accident without injury and failing to provide information.'},
     
 },
-    [9] = {
+    [10] = {
     [1] = {title = 'Authorized Emergency Vehicle', class = 'N/A', id = 'P.C. 900.00', description = 'Definition and regulations for authorized emergency vehicles.'},
     [2] = {title = 'Non-Exemption for Authorized Emergency Vehicles', class = 'N/A', id = 'P.C. 900.01', description = 'Clarification on limitations and non-exemptions for emergency vehicles.'},
     [3] = {title = 'Bicyclist Rights', class = 'N/A', id = 'P.C. 900.02', description = 'Rights and responsibilities of bicyclists on public roads.'},
@@ -417,39 +431,48 @@ Config.PenalCode = {
     [10] = {title = 'Motorcycle & Motorized or Motorized Scooter Rights', class = 'N/A', id = 'P.C. 900.09', description = 'Legal rights and regulations for motorized scooters and motorcycles.'},
     [11] = {title = 'Operation of a Motorized or Motorized Scooter', class = 'Infraction', id = 'P.C. 900.10', months = 20, fine = 200, color = 'yellow', description = 'Improper operation of a motorized scooter or similar vehicle.'},
     },
-   [10] = {
+  
+[11] = {
+[1] = {title = 'Green Signals on Traffic Lights', class = 'Infraction', id = 'P.C. 1000.00', months = 20, fine = 200, color = 'green', description = 'Proceeding through a green traffic signal as expected.'},  
+[2] = {title = 'Red Signals', class = 'Infraction', id = 'P.C. 1000.01', months = 20, fine = 200, color = 'red', description = 'Failing to stop at a red traffic signal, which may result in accidents or traffic violations.'} 
+
+},
+ [12] = {
 [1] = {title = 'Driving on Right Side', class = 'Infraction', id = 'P.C. 1100.00', months = 20, fine = 200, color = 'blue', description = 'Driving on the right side of the road as required by law.'},
 [2] = {title = 'Yielding to Vehicles', class = 'Infraction', id = 'P.C. 1100.01', months = 20, fine = 200, color = 'blue', description = 'Yielding to other vehicles when necessary according to traffic laws.'},
 [3] = {title = 'Maintaining Lanes', class = 'Infraction', id = 'P.C. 1100.02', months = 20, fine = 200, color = 'blue', description = 'Maintaining your vehicle within the lane markers while driving.'},
 [4] = {title = 'Lane Splitting', class = 'Infraction', id = 'P.C. 1100.03', months = 20, fine = 250, color = 'blue', description = 'Motorcycles traveling between lanes of traffic.'},
 [5] = {title = 'Following too Closely', class = 'Infraction', id = 'P.C. 1100.04', months = 20, fine = 200, color = 'blue', description = 'Following another vehicle too closely, which can result in a rear-end collision.'},
+[6] = {title = 'Following Emergency Vehicles', class = 'Infraction', id = 'P.C. 1100.05', months = 20, fine = 250, color = 'blue', description = 'Unlawfully following closely behind emergency vehicles responding to an emergency.'},  
+[7] = {title = 'Driving over Fire Equipment', class = 'Infraction', id = 'P.C. 1100.06', months = 20, fine = 250, color = 'blue', description = 'Driving over fire hoses or equipment laid down by emergency personnel, which can cause damage or hinder emergency response.'},  
+[8] = {title = 'Prohibited Passengers', class = 'Infraction', id = 'P.C. 1100.07', months = 20, fine = 200, color = 'blue', description = 'Transporting passengers in a manner not permitted by law, such as in unsafe conditions or restricted areas of the vehicle.'},  
+[9] = {title = 'Overtaking of Vehicles', class = 'Infraction', id = 'P.C. 1100.08', months = 20, fine = 250, color = 'blue', description = 'Overtaking another vehicle in a dangerous or unlawful manner, such as on blind curves or in no-passing zones.'},  
+[10] = {title = 'Bicycle Overtaking', class = 'Infraction', id = 'P.C. 1100.09', months = 20, fine = 200, color = 'blue', description = 'Failing to properly overtake or yield to bicycles, potentially causing accidents or unsafe conditions for cyclists.'},  
+[11] = {title = 'Seat Belt Usage', class = 'Infraction', id = 'P.C. 1100.10', months = 20, fine = 250, color = 'blue', description = 'Failing to wear a seat belt while operating or riding in a motor vehicle, increasing the risk of injury in case of an accident.'},  
+[12] = {title = 'Interfering with the Driver', class = 'Infraction', id = 'P.C. 1100.11', months = 20, fine = 200, color = 'blue', description = 'Engaging in behavior that distracts or interferes with the driver’s ability to safely operate the vehicle.'},  
+[13] = {title = 'Golf Carts', class = 'Infraction', id = 'P.C. 1100.12', months = 20, fine = 200, color = 'blue', description = 'Operating a golf cart in an area or manner not permitted by traffic laws or regulations.'},  
+[14] = {title = 'Distracted Driving', class = 'Infraction', id = 'P.C. 1100.13', months = 20, fine = 200, color = 'blue', description = 'Using mobile devices or engaging in activities that divert attention from the road, increasing the risk of accidents.'}  
 
 },
- [11] = {
-[1] = {title = 'Valid Driver License Requirements', class = 'Infraction', id = 'P.C. 700.00', months = 20, fine = 200, color = 'blue', description = 'Requirements for possessing a valid driver’s license as per traffic laws.'},
-[2] = {title = 'Driving without a License', class = 'Infraction', id = 'P.C. 700.01', months = 20, fine = 250, color = 'blue', description = 'Driving a vehicle without a valid driver’s license in your possession.'},
-[3] = {title = 'Failure to Provide Driver’s License', class = 'Misdemeanor', id = 'P.C. 700.02', months = 30, fine = 1100, color = 'green', description = 'Failure to provide a valid driver’s license upon request from law enforcement.'},
-[4] = {title = 'Driving on a Suspended/Revoked Driver License', class = 'Misdemeanor', id = 'P.C. 700.03', months = 30, fine = 1200, color = 'green', description = 'Driving a vehicle while your driver’s license is suspended or revoked.'},
 
-},
-[12] = {
-[1] = {title = 'Right of Way', class = 'Infraction', id = 'P.C. 1200.00', months = 20, fine = 250, color = 'blue', description = 'Failure to yield the right of way as required by traffic laws.'},
-[2] = {title = 'Right of Way to Emergency Vehicles', class = 'Infraction', id = 'P.C. 1200.01', months = 20, fine = 200, color = 'blue', description = 'Failure to yield the right of way to emergency vehicles, such as ambulances, fire trucks, and police vehicles.'},
-
-},
-[13] = {
-[1] = {title = 'Right of Way to Pedestrians', class = 'Infraction', id = 'P.C. 1300.00', months = 20, fine = 200, color = 'blue', description = 'Failure to yield the right of way to pedestrians at crosswalks.'},
-[2] = {title = 'Stopping Requirements at Crosswalks', class = 'Infraction', id = 'P.C. 1300.01', months = 20, fine = 200, color = 'blue', description = 'Failure to stop at a crosswalk when pedestrians are present or waiting to cross.'},
-[3] = {title = 'Impeding Vehicle Traffic', class = 'Infraction', id = 'P.C. 1300.02', months = 20, fine = 200, color = 'blue', description = 'Driving in a manner that blocks or delays the normal flow of vehicle traffic.'},
+ [13] = {
+[1] = {title = 'Right of Way', class = 'Infraction', id = 'P.C. 1200.00', months = 20, fine = 250, color = 'blue', description = 'Failing to yield the right of way as required, leading to potential traffic conflicts or accidents.'},  
+[2] = {title = 'Right of Way to Emergency Vehicles', class = 'Infraction', id = 'P.C. 1200.01', months = 20, fine = 200, color = 'blue', description = 'Failing to yield to emergency vehicles with active sirens or lights, obstructing their response to emergencies.'}
 
 },
 [14] = {
+[1] = {title = 'Right of Way to Pedestrians', class = 'Infraction', id = 'P.C. 1300.00', months = 20, fine = 200, color = 'blue', description = 'Failing to yield the right of way to pedestrians at designated crossings, increasing the risk of accidents.'},  
+[2] = {title = 'Stopping Requirements at Crosswalks', class = 'Infraction', id = 'P.C. 1300.01', months = 20, fine = 200, color = 'blue', description = 'Failing to come to a complete stop at a crosswalk when required, endangering pedestrians.'},  
+[3] = {title = 'Impeding Vehicle Traffic', class = 'Infraction', id = 'P.C. 1300.02', months = 20, fine = 200, color = 'blue', description = 'Obstructing or unnecessarily slowing down vehicle traffic, causing potential road hazards or congestion.'}  
+
+},
+[15] = {
 [1] = {title = 'Improper Turning', class = 'Infraction', id = 'P.C. 1400.00', months = 20, fine = 250, color = 'blue', description = 'Making a turn without following proper traffic rules and regulations.'},
 [2] = {title = 'Illegal U-turn', class = 'Infraction', id = 'P.C. 1400.01', months = 20, fine = 250, color = 'blue', description = 'Making a U-turn at a location or in a manner where it is prohibited by law.'},
 [3] = {title = 'Signaling', class = 'Infraction', id = 'P.C. 1400.02', months = 20, fine = 200, color = 'blue', description = 'Failure to use proper signaling (turn signals) when changing lanes or making turns.'},
 
 },
-[15] = {
+[16] = {
 [1] = {title = 'Speed Limit Over 1-10+ mph', class = 'Infraction', id = 'P.C. 1500.00', months = 20, fine = 200, color = 'blue', description = 'Exceeding the posted speed limit by 1-10 miles per hour.'},
 [2] = {title = 'Speed Limit Over 20+ mph', class = 'Infraction', id = 'P.C. 1500.01', months = 20, fine = 250, color = 'blue', description = 'Exceeding the posted speed limit by 20 miles per hour or more.'},
 [3] = {title = 'Speed Limit Over 50+ mph', class = 'Infraction', id = 'P.C. 1500.02', months = 20, fine = 300, color = 'blue', description = 'Exceeding the posted speed limit by 50 miles per hour or more.'},
@@ -460,17 +483,17 @@ Config.PenalCode = {
 [8] = {title = 'Reckless Endangerment', class = 'Infraction', id = 'P.C. 1500.07', months = 30, fine = 1200, color = 'blue', description = 'Engaging in conduct that creates a substantial risk of physical harm to others.'},
 
 },
-[16] = {
+[17] = {
 [1] = {title = 'Illegal Parking', class = 'Infraction', id = 'P.C. 1600.00', months = 20, fine = 250, color = 'blue', description = 'Parking a vehicle in a prohibited area or manner.'},
 [2] = {title = 'Abandoned Vehicles', class = 'Infraction', id = 'P.C. 1600.01', months = 20, fine = 400, color = 'blue', description = 'Leaving a vehicle abandoned in a public or private area.'},
 
 },
-[17] = {
+[18] = {
 [1] = {title = 'Private Business Parking Lots', class = 'Infraction', id = 'P.C. 1700.00', months = 20, fine = 250, color = 'blue', description = 'Parking in private business parking lots without authorization.'},
 [2] = {title = 'Pay For Off-Street Parking', class = 'Infraction', id = 'P.C. 1700.01', months = 20, fine = 400, color = 'blue', description = 'Failure to pay for off-street parking when required.'},
 
 },
-[18] = {
+[19] = {
 [1] = {title = 'Driving Under the Influence (DUI) 1st Offense', class = 'Misdemeanor', id = 'P.C. 1800.00', months = 20, fine = 1100, color = 'red', description = 'Driving under the influence of alcohol or drugs for the first time.'},
 [2] = {title = 'Driving Under the Influence (DUI) 2nd Offense', class = 'Misdemeanor', id = 'P.C. 1800.01', months = 30, fine = 1300, color = 'red', description = 'Driving under the influence of alcohol or drugs for the second time.'},
 [3] = {title = 'Driving Under the Influence (DUI) 3rd Offense', class = 'Misdemeanor', id = 'P.C. 1800.02', months = 40, fine = 1500, color = 'red', description = 'Driving under the influence of alcohol or drugs for the third time.'},
@@ -483,14 +506,14 @@ Config.PenalCode = {
 [10] = {title = 'Open Marijuana Containers in Motor Vehicle', class = 'Infraction', id = 'P.C. 1800.08', months = 20, fine = 200, color = 'blue', description = 'Possessing open marijuana containers in a motor vehicle.'},
 
 },
-[19] = {
+[20] = {
 [1] = {title = 'Vehicle Equipment Lights', class = 'Infraction', id = 'P.C. 1900.00', months = 20, fine = 200, color = 'blue', description = 'Violation of vehicle equipment lighting requirements.'},
 [2] = {title = 'Vehicle Equipment Windshield and Body', class = 'Infraction', id = 'P.C. 1900.01', months = 20, fine = 200, color = 'blue', description = 'Violation of vehicle equipment requirements for windshield and body.'},
 [3] = {title = 'Unauthorized Vehicle Equipment', class = 'Infraction', id = 'P.C. 1900.02', months = 20, fine = 200, color = 'blue', description = 'Use of unauthorized equipment on a vehicle.'},
 
 
 },
-[20] = {
+[21] = {
 [1] = {title = 'Off-Highway Vehicle', class = 'Infraction', id = 'P.C. 2000.00', months = 20, fine = 200, color = 'blue', description = 'Violation related to off-highway vehicles.'},
 [2] = {title = 'Off-Highway Vehicle Registration', class = 'Infraction', id = 'P.C. 2000.01', months = 20, fine = 200, color = 'blue', description = 'Failure to properly register an off-highway vehicle.'},
 [3] = {title = 'Off-Highway Operations', class = 'Infraction', id = 'P.C. 2000.02', months = 20, fine = 200, color = 'blue', description = 'Violation of regulations for off-highway vehicle operations.'},
@@ -498,7 +521,7 @@ Config.PenalCode = {
 [5] = {title = 'Farming Equipment', class = 'Infraction', id = 'P.C. 2000.04', months = 20, fine = 400, color = 'blue', description = 'Violation related to the operation of farming equipment.'},
 
 },
-[21] = {
+[22] = {
 [1] = {title = 'Possession of An Illegal Weapon [Class 1]', class = 'Misdemeanor', id = 'P.C. 2200.00', months = 30, fine = 1000, color = 'red', description = 'Possession of an illegal weapon classified as Class 1.'},
 [2] = {title = 'Possession of An Illegal Weapon [Class 2]', class = 'Felony', id = 'P.C. 2200.01', months = 50, fine = 1000, color = 'red', description = 'Possession of an illegal weapon classified as Class 2.'},
 [3] = {title = 'Possession of An Illegal Weapon [Class 3]', class = 'Felony', id = 'P.C. 2200.02', months = 60, fine = 1700, color = 'red', description = 'Possession of an illegal weapon classified as Class 3.'},
@@ -507,13 +530,13 @@ Config.PenalCode = {
 [6] = {title = 'Open Carry of Legal Weapons', class = 'Felony', id = 'P.C. 2200.05', months = 60, fine = 1900, color = 'red', description = 'Open carry of legal weapons in violation of regulations.'},
 
 },
-[22] = {
+[23] = {
 [1] = {title = 'Brandishing A Firearm or Deadly Weapon', class = 'Misdemeanor', id = 'P.C. 2300.00', months = 50, fine = 1300, color = 'red', description = 'Brandishing a firearm or deadly weapon in a threatening manner.'},
 [2] = {title = 'Brandishing a Firearm or Deadly Weapon Inflicting Serious Injury', class = 'Felony', id = 'P.C. 2300.01', months = 60, fine = 1600, color = 'red', description = 'Brandishing a firearm or deadly weapon that causes serious injury.'},
 [3] = {title = 'Weapons at San Andreas Public Transit Facilities', class = 'Misdemeanor', id = 'P.C. 2300.02', months = 50, fine = 1300, color = 'red', description = 'Possession or brandishing of weapons at San Andreas public transit facilities.'},
 
 },
-[23] = {
+[24] = {
 [1] = {title = 'Negligent Discharge of A Firearm', class = 'Felony', id = 'P.C. 2400.00', months = 50, fine = 1000, color = 'red', description = 'Discharging a firearm negligently, endangering others.'},
 [2] = {title = 'Drive-By-Shooting', class = 'Felony', id = 'P.C. 2400.01', months = 50, fine = 1000, color = 'red', description = 'Shooting from a vehicle, typically at a person or property.'},
 [3] = {title = 'Shooting at an Inhabited Dwelling', class = 'Felony', id = 'P.C. 2400.02', months = 50, fine = 1000, color = 'red', description = 'Firing a weapon at an inhabited building or dwelling.'},
@@ -521,13 +544,13 @@ Config.PenalCode = {
 [5] = {title = 'Shining a Light or Laser at An Aircraft to Interfere with Operation', class = 'Misdemeanor', id = 'P.C. 2400.04', months = 30, fine = 1000, color = 'green', description = 'Shining a laser or light at an aircraft, potentially interfering with its operation.'},
 
 },
-[24] = {
+[25] = {
 [1] = {title = 'Drivers Licenses', class = 'Infraction', id = 'P.C. 2500.01', months = 20, fine = 400, color = 'blue', description = 'Failure to possess a valid driver’s license when required.'},
 [2] = {title = 'Additional Certificate Requirements', class = 'Infraction', id = 'P.C. 2500.02', months = 20, fine = 400, color = 'blue', description = 'Failure to meet additional certificate requirements for driving.'},
 [3] = {title = 'Duty Day Limits', class = 'Misdemeanor', id = 'P.C. 2500.03', months = 30, fine = 1000, color = 'green', description = 'Exceeding the legal duty day limits for drivers.'},
 
 },
-[25] = {
+[26] = {
 [1] = {title = 'Commercial Vehicle DUI 1st Offense', class = 'Misdemeanor', id = 'P.C. 2600.00', months = 20, fine = 1100, color = 'red', description = 'Driving a commercial vehicle under the influence (DUI) for the first offense.'},
 [2] = {title = 'Commercial Vehicle DUI 2nd Offense', class = 'Misdemeanor', id = 'P.C. 2600.01', months = 30, fine = 1300, color = 'red', description = 'Driving a commercial vehicle under the influence (DUI) for the second offense.'},
 [3] = {title = 'Commercial Vehicle DUI Resulting in Minor Injury', class = 'Misdemeanor', id = 'P.C. 2600.02', months = 40, fine = 1500, color = 'red', description = 'Driving a commercial vehicle under the influence (DUI) resulting in minor injury.'},
@@ -538,7 +561,7 @@ Config.PenalCode = {
 [8] = {title = 'Failure to Stop and Submit to Inspection', class = 'Infraction', id = 'P.C. 2600.07', months = 20, fine = 400, color = 'blue', description = 'Failure to stop and submit to inspection when required for commercial vehicles.'},
 
 },
-[26] = {
+[27] = {
 [1] = {title = 'Pilot License (Not In Possession)', class = 'Infraction', id = 'P.C. 2700.00', months = 20, fine = 400, color = 'blue', description = 'Operating an aircraft without having the pilot license in possession.'},
 [2] = {title = 'Pilot License (Suspended Pilot License)', class = 'Misdemeanor', id = 'P.C. 2700.01', months = 40, fine = 1200, color = 'red', description = 'Operating an aircraft with a suspended pilot license.'},
 [3] = {title = 'Pilot License (No Pilot License)', class = 'Felony', id = 'P.C. 2700.02', months = 60, fine = 1600, color = 'red', description = 'Operating an aircraft without holding a valid pilot license.'},
@@ -546,12 +569,12 @@ Config.PenalCode = {
 [5] = {title = 'Duty Day Limits', class = 'Misdemeanor', id = 'P.C. 2700.04', months = 40, fine = 1200, color = 'red', description = 'Exceeding duty day limits for pilots, which can cause fatigue and safety issues.'},
 
 },
-[27] = {
+[28] = {
 [1] = {title = 'Restricted Flight Areas', class = 'Misdemeanor', id = 'P.C. 2800.01', months = 40, fine = 1200, color = 'red', description = 'Flying an aircraft in a restricted flight area without proper authorization.'},
 [2] = {title = 'Alcohol And Drugs', class = 'Infraction', id = 'P.C. 2800.02', months = 20, fine = 400, color = 'blue', description = 'Operating an aircraft under the influence of alcohol or drugs.'},
 
 },
-[28] = {
+[29] = {
 [1] = {title = 'Inspection, Testing, and Demonstration of Compliance', class = 'Infraction', id = 'P.C. 2900.01', months = 20, fine = 400, color = 'blue', description = 'Failure to comply with inspection, testing, and demonstration requirements for aircraft.'},
 [2] = {title = 'Registration and Certification', class = 'Infraction', id = 'P.C. 2900.02', months = 20, fine = 400, color = 'blue', description = 'Failure to register or certify an aircraft according to regulations.'},
 [3] = {title = 'Hazardous Operation', class = 'Infraction', id = 'P.C. 2900.03', months = 20, fine = 400, color = 'blue', description = 'Engaging in hazardous operations that endanger the safety of the aircraft or others.'},
@@ -559,14 +582,14 @@ Config.PenalCode = {
 
 
 },
-[29] = {
+[30] = {
 [1] = {title = 'Boater\'s License', class = 'Infraction', id = 'P.C. 3000.01', months = 20, fine = 400, color = 'blue', description = 'Failure to possess a valid boater\'s license when operating a vessel.'},
 [2] = {title = 'Equipment', class = 'Infraction', id = 'P.C. 3000.02', months = 20, fine = 400, color = 'blue', description = 'Failure to maintain proper equipment on a vessel according to regulations.'},
 [3] = {title = 'Vessel Registration', class = 'Infraction', id = 'P.C. 3000.03', months = 20, fine = 400, color = 'blue', description = 'Failure to register a vessel with the appropriate authorities.'},
 [4] = {title = 'Display of Numbers and Stickers', class = 'Infraction', id = 'P.C. 3000.04', months = 20, fine = 400, color = 'blue', description = 'Failure to display required identification numbers and stickers on a vessel.'},
 
 },
-[30] = {
+[31] = {
 [1] = {title = 'Fog Signals', class = 'Infraction', id = 'P.C. 3100.00', months = 20, fine = 200, color = 'blue', description = 'Failure to use fog signals when operating a vessel in foggy conditions.'},
 [2] = {title = 'Speed Limit Over 5+ Mph', class = 'Infraction', id = 'P.C. 3100.01', months = 20, fine = 250, color = 'blue', description = 'Operating a vessel more than 5 mph over the speed limit.'},
 [3] = {title = 'Speed Limit Over 15+ Mph', class = 'Infraction', id = 'P.C. 3100.02', months = 20, fine = 300, color = 'blue', description = 'Operating a vessel more than 15 mph over the speed limit.'},
@@ -578,12 +601,12 @@ Config.PenalCode = {
 [9] = {title = 'Boating Under the Influence', class = 'Felony', id = 'P.C. 3100.08', months = 60, fine = 1600, color = 'red', description = 'Operating a vessel under the influence of alcohol or drugs.'},
 
 },
-[31] = {
+[32] = {
 [1] = {title = 'Waste and Grey Water Discharge', class = 'Misdemeanor', id = 'P.C. 3200.00', months = 40, fine = 1200, color = 'red', description = 'Improper discharge of waste or grey water from a vessel into the water.'},
 [2] = {title = 'Firing a Weapon from a Vessel', class = 'Misdemeanor', id = 'P.C. 3200.01', months = 40, fine = 1200, color = 'red', description = 'Firing a weapon from a vessel in violation of safety or legal restrictions.'},
 
 },
-[32] = {
+[33] = {
 [1] = {title = 'Racketeering', class = 'Felony', id = 'P.C. 3400.00', months = 50, fine = 1000, color = 'red', description = 'Engaging in illegal business activities through organized crime or other unlawful means.'},
 [2] = {title = 'General Money Laundering', class = 'Felony', id = 'P.C. 3400.01', months = 50, fine = 1500, color = 'red', description = 'The process of concealing the origins of illegally obtained money, typically from criminal activities.'},
 [3] = {title = 'Controlled Substance Money Laundering', class = 'Felony', id = 'P.C. 3400.02', months = 50, fine = 1300, color = 'red', description = 'Money laundering involving funds obtained through the sale or distribution of controlled substances.'},
@@ -591,7 +614,7 @@ Config.PenalCode = {
 [5] = {title = 'Mayhem', class = 'Felony', id = 'P.C. 3400.04', months = 50, fine = 1100, color = 'red', description = 'The malicious and unlawful injuring or maiming of another individual.'},
 
 },
-[33] = {
+[34] = {
 [1] = {title = 'License Provisions', class = 'Infraction', id = 'P.C. 3500.01', months = 20, fine = 400, color = 'blue', description = 'Violating provisions regarding hunting license requirements.'},
 [2] = {title = 'Prohibition on Hunting 1st Offense', class = 'Misdemeanor', id = 'P.C. 3500.02', months = 40, fine = 1000, color = 'green', description = 'Hunting without proper authorization for the first offense.'},
 [3] = {title = 'Prohibition on Hunting 2nd Offense and more', class = 'Felony', id = 'P.C. 3500.03', months = 50, fine = 1600, color = 'red', description = 'Hunting without proper authorization after the second offense.'},
@@ -616,7 +639,7 @@ Config.PenalCode = {
 [22] = {title = 'Illegal Dumping of Liquids/Trash 2nd Offense', class = 'Felony', id = 'P.C. 3500.22', months = 45, fine = 1300, color = 'red', description = 'Illegal dumping of waste after the second offense.'},
 
 },
-[34] = {
+[35] = {
 [1] = {title = 'Animal Neglect 1st Offense', class = 'Misdemeanor', id = 'P.C. 3600.01', months = 40, fine = 1000, color = 'green', description = 'Neglecting the care of an animal for the first offense.'},
 [2] = {title = 'Animal Neglect 2nd Offense', class = 'Felony', id = 'P.C. 3600.02', months = 50, fine = 1200, color = 'red', description = 'Neglecting the care of an animal after the second offense.'},
 [3] = {title = 'Cruelty To Animals', class = 'Felony', id = 'P.C. 3600.03', months = 60, fine = 1600, color = 'red', description = 'Engaging in cruelty towards animals, causing harm or suffering.'},
@@ -625,7 +648,7 @@ Config.PenalCode = {
 [6] = {title = 'Dangerous Animals 2nd Offense', class = 'Felony', id = 'P.C. 3600.06', months = 60, fine = 1900, color = 'red', description = 'Owning or harboring dangerous animals after the second offense.'},
 
 },
-[35] = {
+[36] = {
 [1] = {title = 'Reasonable Mistakes', class = 'Misdemeanor', id = 'P.C. 3700.02', months = 40, fine = 1000, color = 'green', description = 'Making a reasonable mistake in the course of law enforcement duties.'},
 [2] = {title = 'Clearly Established Rights', class = 'Misdemeanor', id = 'P.C. 3700.03', months = 45, fine = 1200, color = 'green', description = 'Violation of clearly established constitutional rights during law enforcement duties.'},
 [3] = {title = 'Excessive Use of Force', class = 'Felony', id = 'P.C. 3700.04', months = 50, fine = 1200, color = 'red', description = 'Using excessive force beyond what is necessary during an arrest or law enforcement action.'},
@@ -633,7 +656,7 @@ Config.PenalCode = {
 [5] = {title = 'Cases of Misconduct', class = 'Felony', id = 'P.C. 3700.06', months = 60, fine = 1900, color = 'red', description = 'Engaging in misconduct in the performance of official law enforcement duties.'},
 
 },
-[36] = {
+[37] = {
 [1] = {title = 'Senior Citizen Rights', class = 'Misdemeanor', id = 'P.C. 3800.00', months = 40, fine = 1000, color = 'green', description = 'Rights and protections for senior citizens in various employment contexts.'},
 [2] = {title = 'Minimum Age for Employment', class = 'Misdemeanor', id = 'P.C. 3800.01', months = 40, fine = 1000, color = 'green', description = 'Regulation of minimum age requirements for employment.'},
 [3] = {title = 'Working Hours for Minors', class = 'Misdemeanor', id = 'P.C. 3800.02', months = 40, fine = 1000, color = 'green', description = 'Regulations regarding the number of hours minors are allowed to work.'},
@@ -648,7 +671,7 @@ Config.PenalCode = {
 [12] = {title = 'Constitutional Considerations', class = 'Misdemeanor', id = 'P.C. 3800.11', months = 40, fine = 1000, color = 'green', description = 'Consideration of constitutional protections in employment laws for minors.'},
 
 },
-[37] = {
+[38] = {
 [1] = {title = 'Mental Health Evaluation', class = '', id = 'P.C. 3900.00', months = '', fine = '', color = '', description = ''},
 [2] = {title = 'Mental Health Holds', class = 'Infraction', id = 'P.C. 3900.01', months = 20, fine = 400, color = 'blue', description = 'Holding an individual in a facility due to mental health concerns.'},
 [3] = {title = 'Involuntary Commitment', class = 'Misdemeanor', id = 'P.C. 3900.02', months = 40, fine = 1000, color = 'green', description = 'The involuntary commitment of an individual to a mental health facility.'},
@@ -661,7 +684,7 @@ Config.PenalCode = {
 [10] = {title = 'Mental Health Insurance Parity', class = '', id = 'P.C. 3900.09', months = '', fine = '', color = '', description = ''}
 
 },
-[38] = {
+[39] = {
 [1] = {title = 'Marriage Requirements', class = '', id = 'P.C. 4000.00', months = '', fine = '', color = '', description = ''},
 [2] = {title = 'Annulment Based on Fraud', class = 'Infraction', id = 'P.C. 4000.01', months = 20, fine = 400, color = 'blue', description = 'Annulment of marriage based on fraudulent actions.'},
 [3] = {title = 'No-Fault Divorce', class = '', id = 'P.C. 4000.02', months = '', fine = '', color = '', description = ''},
@@ -675,7 +698,7 @@ Config.PenalCode = {
 [11] = {title = 'Prenuptial Agreements', class = '', id = 'P.C. 4000.10', months = '', fine = '', color = '', description = ''}
 
 },
-[39] = {
+[40] = {
 [1] = {title = 'Medical Malpractice', class = 'Felony', id = 'P.C. 5000.00', months = 60, fine = 1900, color = 'red', description = 'Malpractice committed by a medical professional, resulting in harm to a patient.'},
 [2] = {title = 'Fraudulent Medical Practices', class = 'Felony', id = 'P.C. 5000.01', months = 60, fine = 1900, color = 'red', description = 'Engaging in fraudulent medical practices, such as falsifying records or procedures.'},
 [3] = {title = 'Prescription Drug Offenses', class = 'Felony', id = 'P.C. 5000.02', months = 60, fine = 1900, color = 'red', description = 'Unlawful prescribing or dispensing of prescription medications.'},
@@ -689,7 +712,7 @@ Config.PenalCode = {
 [11] = {title = 'Constitutional Rights of Medical Practitioners', class = '', id = 'P.C. 5000.10', months = '', fine = '', color = '', description = ''}
 
 },
-[40] = {
+[41] = {
 [1] = {title = 'Food Handling Standards', class = 'Felony', id = 'P.C. 6000.00', months = 60, fine = 1900, color = 'red', description = 'Failure to adhere to proper food handling standards, risking contamination or injury.'},
 [2] = {title = 'Contamination Prevention', class = 'Felony', id = 'P.C. 6000.01', months = 60, fine = 1900, color = 'red', description = 'Failure to prevent contamination in food handling or storage processes.'},
 [3] = {title = 'Labeling and Allergen Disclosure', class = 'Felony', id = 'P.C. 6000.02', months = 60, fine = 1900, color = 'red', description = 'Failure to provide accurate labeling and allergen disclosures for food products.'},
